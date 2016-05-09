@@ -1,7 +1,7 @@
 import time
 
 print('Hello!')
-time.sleep(2) # delays for 2 seconds
+time.sleep(1)  # delays for 2 seconds
 
 print('Please choose a number (in your head) between 1 and 10, but not including them.')
 time.sleep(2)
@@ -42,7 +42,7 @@ elif response1 == 'n':
             print('Your number is 4!')
 
     elif response2 == 'n':
-    # 5, 7 are possible
+        # 5, 7 are possible
         response3 = input('Is your number divisible by 5 (y or n)?')
         if response3 == 'y':
             print('Your number is 5!')
