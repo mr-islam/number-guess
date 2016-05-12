@@ -3,7 +3,7 @@ import time
 print('Hello!')
 time.sleep(1)  # delays for 2 seconds
 
-print('Please choose a number (in your head) between 1 and 10, but not including them.')
+print('Please choose an integer (in your head) between 1 and 10, but not including them.')
 time.sleep(2)
 
 response1 = input('Is your number divisible by 2 (y or n)?')
